@@ -1,7 +1,7 @@
 %%
  
-% Alejandro Cueva
-% Centro de Investigación Científica y de Educación Superior de Ensenada (CICESE)
+% Alejandro Cueva, Janet J. Reimer, Rodrigo Vargas
+% Centro de InvestigaciÃ³n CientÃ­fica y de EducaciÃ³n Superior de Ensenada (CICESE)
 % 12/Jul/2016
 % Version: 1.1
  
@@ -52,7 +52,7 @@ sst_daily_std=nanstd(sst_column); %Estimating daily standard deviations, there a
  
 %% Ranges of SVWC mean+-2std
  
-wd_sup=wd_daily_mean+(2*wd_daily_std); %Upper limit of the threshold (mean+2std).  In this example %our threshold is ± 2 standard deviations, however, it can be changed to reflect how strict the %conditions are to define “similar conditions”.
+wd_sup=wd_daily_mean+(2*wd_daily_std); %Upper limit of the threshold (mean+2std).  In this example %our threshold is Â± 2 standard deviations, however, it can be changed to reflect how strict the %conditions are to define â€œsimilar conditionsâ€.
 wd_inf=wd_daily_mean-(2*wd_daily_std); %lower limit of the threshold (mean-2std)
  
 ws_sup=ws_daily_mean+(2*ws_daily_std); %Upper limit of the threshold (mean+2std)
